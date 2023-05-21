@@ -1,0 +1,100 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bolder;
+}
+
+body{
+    height: 100vh;
+/*     background: linear-gradient(120deg, rgb(12, 12, 12),rgb(105, 105, 117));
+ */ 
+    background-image: url("porto2.jpg");
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+
+    
+}
+
+h1{
+    margin: 10px;
+    letter-spacing: 30px;
+    font-weight: bolder;/* 
+    text-align: center;
+    align-items: center */
+    
+}
+.calendario {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+    width: 550px;
+    background: transparent;
+    border-radius: 20px;
+    /* box-shadow: 0px 8px 10px  gray; */
+    margin-bottom: 40px;
+    
+}
+
+.relogio {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+    width: 550px;
+    background: transparent;
+    border-radius: 20px;
+   /*  box-shadow: 0px 8px 10px  gray; */
+    
+}
+
+.relogio div{
+    height: 170px;
+    width: 150px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(34, 33, 33, 0.7);
+    /* box-shadow: 5px 15px 18px rgb(88, 87, 87); */
+    border-radius: 20px;
+    letter-spacing: 3px;
+}
+.calendario div{
+    height: 170px;
+    width: 150px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(34, 33, 33, 0.7);
+    /* box-shadow: 5px 15px 18px rgb(88, 87, 87); */
+    border-radius: 20px;
+    letter-spacing: 3px;
+}
+
+.relogio span{
+    
+    font-size: 90px;
+}
+
+.calendario span{
+    font-size: 90px;
+}
+
+.relogio span.tempo{
+    font-size: 20px;
+}
+
+
+.calendario span.data  {
+    font-size: 20px;
+}
