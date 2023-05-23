@@ -98,3 +98,35 @@ h1{
 .calendario span.data  {
     font-size: 20px;
 }
+
+
+@media (min-width: 390px) { /* iPhone 12 */
+
+   body{
+    background-size: auto;
+   }
+
+    .calendario,
+    .relogio {
+      height: 150px;
+      width: 350px;
+    }
+    
+    .calendario div,
+    .relogio div {
+      height: 120px;
+      width: 100px;
+    }
+    
+    .relogio span,
+    .calendario span {
+      font-size: 60px;
+    }
+    
+    .relogio span.tempo,
+    .calendario span.data {
+      font-size: 14px;
+    }
+  }
+
+
